@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hdrunk.</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="reservation" id="reservation">
+      <i id="closeResrv" class="fas fa-bars fa-times"></i>
+
+      <div class="res-bg">
+        <div class="text">
+          <h3>RESERVATION</h3>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Full Name" />
+          <input type="number" placeholder="Phone Number" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="How Many" />
+          <input type="date" placeholder="Booking Date" />
+          <input type="time" placeholder="Time" />
+        </form>
+        <button
+          type="button"
+          class="btn navbtn py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-600 hover:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+        >
+          Reservation
+        </button>
+      </div>
+    </div>
+
+    <header class="header" id="header">
+      <nav>
+        <a href="#" class="logo">hdrunk.</a>
+        <i id="OpenMenu" class="fa-solid fa-bars"></i>
+
+        <i id="book" class="fa-solid fa-martini-glass-citrus btnResrv"></i>
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+          <button
+            type="button"
+            class="btnResrv navbtn py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border-gray-200 hover:bg-gray-600 hover:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >
+            Reservation
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="home" id="home">
+      <div class="swipper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide slide1 bg-overlay">
+            <div class="content">
+              <h3>hdrunk.</h3>
+              <h1>Coctail Bar</h1>
+            </div>
+          </div>
+          <div class="swiper-slide slide slide2 bg-overlay">
+            <div class="content">
+              <h3>Opening Hours</h3>
+              <h1>The best Tasting Experience!</h1>
+              <a
+                href="#"
+                class="btnResrv btn py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border-gray-200 hover:bg-gray-600 hover:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                >Get a reservation now</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide slide slide3 bg-overlay">
+            <div class="content">
+              <h3>hdrunk.</h3>
+              <h1>I have mixed drinks about feelings</h1>
+              <a
+                href="#menu"
+                class="btn py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border-gray-200 hover:bg-gray-600 hover:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                >wiev menuw</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next btn-swip"></div>
+      <div class="swiper-button-prev btn-swip"></div>
+    </div>
+
+    <section class="about sec" id="about">
+      <div class="container">
+        <div class="sec-head">
+          <span>hdrunk.</span>
+          <h2>Welcome to Lab</h2>
+        </div>
+        <div class="content">
+          <div class="div-p">
+            At hdrunk. , we believe that every sip is an experience and every
+            cocktail tells a unique story. Nestled in Izmir, our bar is a
+            harmonious blend of exquisite flavors, captivating ambiance, and
+            unparalleled hospitality.
+          </div>
+
+          <div class="boxs">
+            <div class="box">
+              <span>Friday</span>
+              <h3>Soulful Sounds Night</h3>
+              <p>
+                Kick off the weekend with live soul music and a warm atmosphere.
+                On Friday nights, local music artists and bands will take the
+                stage with unique performances. Make the start of your weekend
+                enjoyable with a special drink menu and a relaxing ambiance.
+              </p>
+            </div>
+            <div class="box">
+              <span>Saturday</span>
+              <h3>Mixology Masterclass</h3>
+              <p>
+                Sundays are for relaxation and recharging. With our "Relax &
+                Recharge Brunch" event, offer your guests a special brunch
+                experience. Delightful meals, light beverages, and a live
+                acoustic music performance will help your guests unwind and
+                recharge for the upcoming week.
+              </p>
+            </div>
+            <div class="box">
+              <span>Sunday</span>
+              <h3>Relax & Recharge Brunch</h3>
+              <p>
+                Sundays are for relaxation and recharging. With our "Relax &
+                Recharge Brunch" event, offer your guests a special brunch
+                experience. Delightful meals, light beverages, and a live
+                acoustic music performance will help your guests unwind and
+                recharge for the upcoming week.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipes" id="recipes">
+      <div class="small-sec bg-overlay">
+        <div class="arrow-top"></div>
+        <div class="sec-head">
+          <span></span>
+          <h2>Delicious Recipse</h2>
+        </div>
+        <div class="arro-bottom"></div>
+      </div>
+
+      <div class="container">
+        <div class="boxs">
+          <div class="box">
+            <img src="img/rec1.jpg" alt="" />
+            <span>Crafted Mixology</span>
+            <h4>Elevate Your Evenings</h4>
+            <p>
+              Unleash your senses with our artful cocktails, meticulously
+              crafted to elevate your evenings to extraordinary heights.
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/rec2.jpg" alt="" />
+            <span>Culinary Alchemy</span>
+            <h4>Beyond Cocktails</h4>
+            <p>
+              Experience the fusion of mixology and culinary artistry, where
+              each sip and bite create a symphony of unparalleled flavors.
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/rec3.jpg" alt="" />
+            <span>Stylish Sipsy</span>
+            <h4>Urban Vibes</h4>
+            <p>
+              Savor urban elegance with our stylish cocktails in a trendy
+              setting, where each sip is a statement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-menu" id="menu">
+      <div class="small-sec bg-overlay">
+        <div class="arrow-top"></div>
+        <div class="sec-head">
+          <h2>Menu</h2>
+        </div>
+        <div class="arro-bottom"></div>
+      </div>
+
+      <div class="container">
+        <div class="content">
+          <ul>
+            <li class="active">drinks</li>
+
+            <li>food</li>
+          </ul>
+        </div>
+
+        <div class="boxs">
+          <div class="box">
+            <img src="./img/menu1.jpg" alt="" />
+            <div class="name-price">
+              <h3>London Mint Swizzle</h3>
+              <span>$12.95</span>
+            </div>
+            <p>gin, juice, syrup, soda</p>
+          </div>
+          <div class="box">
+            <img src="./img/menu2.jpg" alt="" />
+            <div class="name-price">
+              <h3>Matador</h3>
+              <span>$19.95</span>
+            </div>
+            <p>
+              h whiskey, white vermouth, liqueur, bitter, grenadine, orange
+              juice, cocktail cherry and ice
+            </p>
+          </div>
+          <div class="box">
+            <img src="./img/menu3.jpg" alt="" />
+            <div class="name-price">
+              <h3>White sangria</h3>
+              <span>$14.95</span>
+            </div>
+            <p>spanish wine, peach, orange, lime and ice.</p>
+          </div>
+          <div class="box">
+            <img src="./img/menu4.jpg" alt="" />
+            <div class="name-price">
+              <h3>Aruba Ariba</h3>
+              <span>$34.95</span>
+            </div>
+            <p>white rum, orange, lemon and pineapple juice, grenadine</p>
+          </div>
+          <div class="box">
+            <img src="./img/menu5.jpg" alt="" />
+            <div class="name-price">
+              <h3>Summer Love</h3>
+              <span>$14.95</span>
+            </div>
+            <p>
+              cognac, liqueur, prosecco or sparkling wine with ice and mint in
+              wine glass.
+            </p>
+          </div>
+          <div class="box">
+            <img src="./img/menu6.jpg" alt="" />
+            <div class="name-price">
+              <h3>Mai Tai</h3>
+              <span>$19.95</span>
+            </div>
+            <p>rum, liqueur, syrup, lime juice.</p>
+          </div>
+        </div>
+        <a
+          href="#menu"
+          class="btn py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border-gray-200 hover:bg-gray-600 hover:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >Discover Full Menu</a
+        >
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="small-sec bg-overlay">
+        <div class="arrow-top"></div>
+        <div class="sec-head">
+          <h2>Team</h2>
+        </div>
+        <div class="arro-bottom"></div>
+      </div>
+
+      <div class="container">
+        <div class="boxs">
+          <div class="box">
+            <div class="img-text">
+              <img src="./img/team1.jpg" class="img-w" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <p>Dusan Walker.</p>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h5>Dusan Walker</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-text">
+              <img src="./img/team2.jpg" class="img-w" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <p>Emily Thompson.</p>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h5>Emily Thompson</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-text">
+              <img src="./img/team3.jpg" class="img-w" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <p>Oliver Mitchell.</p>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h5>Oliver Mitchell</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-text">
+              <img src="./img/team4.jpg" class="img-w" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <p>Isabella Reynolds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h5>Isabella Reynolds</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black rounded-lg shadow m-4">
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-xl text-gray-500 sm:text-center dark:text-gray-400"
+          ><span class="text-white mr-2">hhdrunk.</span>© 2023 All Rights
+          Reserved
+        </span>
+        <div class="flex flex-wrap items-center mt-3 sm:mt-0">
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 8 19"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 17"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
